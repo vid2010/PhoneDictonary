@@ -1,4 +1,5 @@
 #  PhoneDictonary problem solution
+This project will convert the given 10 digit phone number into the list of words.
 ## Description
 Given a 10 digit phone number, you must return all possible words or combination of words from the provided dictionary, that can be mapped back as a whole to the number.
 - With this we can generate numbers like 1-800-motortruck which is easier to remember then 1-800-6686787825.
@@ -49,10 +50,11 @@ To get give you an initial verification, the following must be true:
 - Generated documents will be available on this `doc/index.html` path
 ## Performance benchmarks
 Below are the performance benchmark for the code execution for 10 digit phone number in milli seconds.
-| Input        | Output           | Time in ms  |
+
+| Input        | Output           | Time  |
 | ------------- |:-------------:| -----:|
-| 2282668687| [[["ACT", "AMOUNTS"], ["ACTA", "MOUNTS"]], [["ACT", "CONTOUR"]], [["BAT", "AMOUNTS"]], [["BAT", "CONTOUR"]], [["CAT", "AMOUNTS"]], [["CAT", "CONTOUR"]]]| 715 |
-| 6686787825|[[["MOTOR", "TRUCK"]], [["MOTOR", "USUAL"]], [["NOUN", "STRUCK"], ["NOUNS", "TRUCK"]], [["NOUNS", "USUAL"]], [["ONTO", "STRUCK"]]]| 833|
+| `2282668687`| `[[["ACT", "AMOUNTS"], ["ACTA", "MOUNTS"]], [["ACT", "CONTOUR"]], [["BAT", "AMOUNTS"]], [["BAT", "CONTOUR"]], [["CAT", "AMOUNTS"]], [["CAT", "CONTOUR"]]]`| `715` |
+| `6686787825`|`[[["MOTOR", "TRUCK"]], [["MOTOR", "USUAL"]], [["NOUN", "STRUCK"], ["NOUNS", "TRUCK"]], [["NOUNS", "USUAL"]], [["ONTO", "STRUCK"]]]`| `833`|
 
 
 ## Installation

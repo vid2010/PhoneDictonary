@@ -37,6 +37,7 @@ To get give you an initial verification, the following must be true:
 ## Dependencies
 - Configured the compatible dependency for elixir(1.5.2) html docs is bellow.
   * `{:ex_doc, "~> 0.18.0"}`
+  * `{:dialyxir, "~> 0.5", only: [:dev], runtime: false}` for static type checking at compile time debbuging api.
 - Run the `mix deps.get` cmd on console, this will download and configured the dependency.
 - Run the `mix deps.compile` cmd on console, this will compile all the dependencies.
 ## Code execution steps
